@@ -11,6 +11,7 @@
 - [**// RELATÓRIOS**](#relatórios)
 - [**// CATEGORIAS**](#categorias)
 - [**// BANCOS**](#bancos)
+- [**// INFORMAÇÕES**](#informações)
 
 ---
 
