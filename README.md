@@ -48,7 +48,7 @@
 - bank_account (_Nome dado pelo usuário para o banco_)
 - bank_description (_Breve Descrição_)
 - bank_credit (_Limite de Crédito dado pelo cliente para utilizar no Banco_)
-- bank_balance
+- bank_balance (_Calculo no momento de detalhamento para exbir o Saldo atual no Banco_)
 
 
 ## INFORMAÇÕES:
