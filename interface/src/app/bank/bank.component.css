@@ -1,0 +1,60 @@
+section {
+    float: right;
+    width: 80%;
+}
+
+.bank-title{
+    font-family: 'Roboto';
+    margin-left: 2rem;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-around;
+
+    & button {
+        width: 12rem; height: 1.75rem;
+
+        font-size: 1rem;
+        font-family: 'Calibri';
+        font-weight: bold;
+        
+        background-color: lightgray;
+        box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.5);
+
+        border-radius: 10px;
+        border: 0px;
+    }
+
+    & button:hover {
+        cursor: pointer;
+    }
+}
+
+table {
+    margin: 2rem;
+    text-align: left;
+    border-collapse: collapse;
+
+    & td, th {
+        height: 20px; max-height: 20px;
+        padding-left: 10px;
+        border: 1px solid black;
+    }
+
+    & .account {
+        width: 250px;
+    }
+
+    & .description {
+        width: 450px;
+    }
+
+    & .credit {
+        width: 150px;
+    }
+
+    & .balance {
+        width: 150px;
+    }
+}
