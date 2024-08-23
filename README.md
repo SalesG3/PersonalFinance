@@ -35,7 +35,14 @@
 
 ### CATEGORIAS:
 
-> formuling...
+>Criação de Categorias para serem vinculados as _Movimentações_ para maior controle.
+
+**DADOS:**
+- category_ID (_Registro interno para DB_)
+- category_name (_Nome dado pelo usuário para a categoria_)
+- category_description (_Breve Descrição para a Categoria_)
+- category_limit (_Valor Limite de despesa para Categoria_)
+- category_balance (_Limite da Categoria utilizado na competência presente_)
 
 ---
 
