@@ -1,0 +1,20 @@
+.bank-detailing-title {
+    display: block;
+    background-color: gray;
+
+    & h3 {
+        float: left;
+        width: 50%;
+        background-color: gray;
+    }
+    & button {
+        float: right;
+        width: 50%;
+        background-color: gray;
+    }
+}
+
+.bank-data {
+    float: left;
+    display: block;
+}

@@ -1,29 +1,29 @@
 <section>
 
-    <div class="bank-title">
+    <div class="category-title">
 
-        <h2>GERENCIADOR DE BANCOS:</h2>
+        <h2>GERENCIADOR DE CATEGORIAS:</h2>
         
     </div>
 
     <nav class="toolbar">
 
-        <button (click)="showMessage()" >INCLUIR</button>
+        <button>INCLUIR</button>
         <button>ALTERAR</button>
         <button>CONSULTAR</button>
         <button>EXCLUIR</button>
 
     </nav>
 
-    <table [hidden]="dataTable">
+    <table>
 
         <thead>
 
             <tr>
                 
-                <th class="account">Conta:</th>
+                <th class="category">Conta:</th>
                 <th class="description">Descrição:</th>
-                <th class="credit">Crédito:</th>
+                <th class="limit">Limite:</th>
                 <th class="balance">Saldo:</th>
 
             </tr>
@@ -31,10 +31,8 @@
         </thead>
 
         <!-- Inserir Registros -->
-        <tbody id="bank-tbody"></tbody>
+        <tbody id="category-tbody"></tbody>
 
     </table>
-
-    <app-bank-detailing [hidden]="detailing"></app-bank-detailing>
 
 </section>

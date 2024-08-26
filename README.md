@@ -23,7 +23,15 @@
 
 ### MOVIMENTAÇÕES:
 
-> formuling...
+> Tela de movimentação principal da aplicação, CRUD para transações que servirão de base para criação dos relatórios de controle.
+
+- transaction_ID (_Registro interno para DB_)
+- transcation_date (_Data da transação_)
+- transaction_type (_Tipo da Movimentação: Receita / Despesa_) 
+- transaction_category (_Vinculação a Categoria para classificação_)
+- transaction_value (_Valor da transação_)
+- transaction_method (_Método utilizado na transação: Débito / Crédito / PIX_)
+- transaction_bank (_Vinculação ao Banco referente a transação_)
 
 ---
 
