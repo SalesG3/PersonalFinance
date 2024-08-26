@@ -1,20 +1,42 @@
+section {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
 .bank-detailing-title {
-    display: block;
+    height: 2.5rem;
     background-color: gray;
 
     & h3 {
-        float: left;
-        width: 50%;
-        background-color: gray;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        font-family: 'Roboto';
+        color: white;
     }
+
     & button {
+        margin-top: 1rem;
+        margin-right: 1rem;
         float: right;
-        width: 50%;
-        background-color: gray;
+        cursor: pointer;
     }
+
 }
 
 .bank-data {
-    float: left;
-    display: block;
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+    background-color: lightgray;
+    box-shadow: inset 0px 4px 3px -1px rgba(0, 0, 0, 0.5);
+
+    & button {
+        width: 100px;
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+
+    & textarea {
+        resize: none;
+    }
 }

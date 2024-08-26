@@ -12,11 +12,7 @@ export class BankComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-    // Para configurar o style do bank detailing
-    this.dataTable = true;
-    this.detailing = false;
-  }
+  ngOnInit(): void {}
 
   detailing : boolean = true;
   dataTable : boolean = false;
